@@ -18,11 +18,16 @@ package com.jagrosh.jmusicbot;
 import com.jagrosh.jmusicbot.entities.Prompt;
 import com.jagrosh.jmusicbot.utils.OtherUtil;
 import com.jagrosh.jmusicbot.utils.TimeUtil;
+import com.jagrosh.jmusicbot.utils.YouTubeUtil;
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
+import com.sedmelluq.lava.extensions.youtuberotator.tools.ip.IpBlock;
 import com.typesafe.config.*;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 
