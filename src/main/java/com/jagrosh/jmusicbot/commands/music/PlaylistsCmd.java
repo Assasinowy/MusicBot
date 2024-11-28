@@ -44,19 +44,19 @@ public class PlaylistsCmd extends MusicCommand
             bot.getPlaylistLoader().createFolder();
         if(!bot.getPlaylistLoader().folderExists())
         {
-            event.reply(event.getClient().getWarning()+" Playlists folder does not exist and could not be created!");
+            event.reply(event.getClient().getWarning()+" Folder playlist nie istnieje i nie mogl zostac stworzony!");
             return;
         }
         List<String> list = bot.getPlaylistLoader().getPlaylistNames();
         if(list==null)
-            event.reply(event.getClient().getError()+" Failed to load available playlists!");
+            event.reply(event.getClient().getError()+" Nie udalo sie zaladowac dostepnych playlist!");
         else if(list.isEmpty())
-            event.reply(event.getClient().getWarning()+" There are no playlists in the Playlists folder!");
+            event.reply(event.getClient().getWarning()+" Nie ma zadnych playlist w folderze playlisty!");
         else
         {
-            StringBuilder builder = new StringBuilder(event.getClient().getSuccess()+" Available playlists:\n");
+            StringBuilder builder = new StringBuilder(event.getClient().getSuccess()+" Dostepne playlisty:\n");
             list.forEach(str -> builder.append("`").append(str).append("` "));
-            builder.append("\nType `").append(event.getClient().getTextualPrefix()).append("play playlist <name>` to play a playlist");
+            builder.append("\nWpisz `").append(event.getClient().getTextualPrefix()).append("play playlist <nazwa>` aby puscic playliste");
             event.reply(builder.toString());
         }
     }
