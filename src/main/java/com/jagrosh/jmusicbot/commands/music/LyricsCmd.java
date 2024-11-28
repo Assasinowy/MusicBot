@@ -35,7 +35,7 @@ public class LyricsCmd extends MusicCommand
     {
         super(bot);
         this.name = "lyrics";
-        this.arguments = "[tytul piosenki]";
+        this.arguments = "[tytul utworu]";
         this.help = "pokazuje tekst piosenki";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.botPermissions = new Permission[]{Permission.MESSAGE_EMBED_LINKS};
@@ -63,7 +63,7 @@ public class LyricsCmd extends MusicCommand
         {
             if(lyrics == null)
             {
-                event.replyError("Tekst `" + title + "` nie zostal znaleziony!" + (event.getArgs().isEmpty() ? " Sprobuj wpisac (`lyrics [tytul piosenki]`)" : ""));
+                event.replyError("Tekst `" + title + "` nie zostal znaleziony!" + (event.getArgs().isEmpty() ? " Sprobuj wpisac (`lyrics [tytul utworu]`)" : ""));
                 return;
             }
 
