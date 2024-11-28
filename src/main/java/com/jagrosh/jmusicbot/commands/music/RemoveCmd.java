@@ -50,7 +50,7 @@ public class RemoveCmd extends MusicCommand
             event.replyError("There is nothing in the queue!");
             return;
         }
-        if(event.getArgs().equalsIgnoreCase("all" or "wszystkie"))
+        if(event.getArgs().equalsIgnoreCase("wszystkie"))
         {
             int count = handler.getQueue().removeAll(event.getAuthor().getIdLong());
             if(count==0)
