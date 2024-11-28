@@ -1,6 +1,6 @@
 <img align="right" src="https://i.imgur.com/zrE80HY.png" height="200" width="200">
 
-# JMusicBot
+# JMusicBot ( Original )
 
 [![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
 [![Stars](https://img.shields.io/github/stars/jagrosh/MusicBot.svg)](https://github.com/jagrosh/MusicBot/stargazers)
@@ -11,7 +11,17 @@
 [![Build and Test](https://github.com/jagrosh/MusicBot/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/jagrosh/MusicBot/actions/workflows/build-and-test.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/musicbot/badge)](https://www.codefactor.io/repository/github/jagrosh/musicbot)
 
-A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!!
+# JMusicBot ( Polish ver )
+
+[![Downloads](https://img.shields.io/github/downloads/Assasinowy/Musicbot/total.svg)](https://github.com/Assasinowy/Musicbot/releases/latest)
+[![Stars](https://img.shields.io/github/stars/Assasinowy/Musicbot.svg)](https://github.com/Assasinowy/Musicbot/stargazers)
+[![Release](https://img.shields.io/github/release/Assasinowy/Musicbot.svg)](https://github.com/Assasinowy/Musicbot/releases/latest)
+[![License](https://img.shields.io/github/license/Assasinowy/Musicbot.svg)](https://github.com/Assasinowy/Musicbot/blob/master/LICENSE)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Assasinowy/Musicbot/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Assasinowy/Musicbot/tree/master)
+[![Build and Test](https://github.com/Assasinowy/Musicbot/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/Assasinowy/Musicbot/actions/workflows/build-and-test.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/Assasinowy/musicbot/badge)](https://www.codefactor.io/repository/github/Assasinowy/musicbot)
+
+A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!
 
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://jmusicbot.com/setup)
 
