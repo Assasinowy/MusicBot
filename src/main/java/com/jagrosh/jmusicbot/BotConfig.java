@@ -46,7 +46,9 @@ public class BotConfig
     private Path path = null;
     private String token, prefix, altprefix, helpWord, playlistsFolder, logLevel,
             successEmoji, warningEmoji, errorEmoji, loadingEmoji, searchingEmoji,
-            evalEngine;
+            ytPoToken, ytVisitorData, evalEngine;
+    private YouTubeUtil.RoutingPlanner ytRoutingPlanner;
+    private List<IpBlock> ytIpBlocks;
     private boolean stayInChannel, songInGame, npImages, updatealerts, useEval, dbots;
     private long owner, maxSeconds, aloneTimeUntilStop;
     private int maxYTPlaylistPages;
@@ -101,6 +103,10 @@ public class BotConfig
             aloneTimeUntilStop = config.getLong("alonetimeuntilstop");
             playlistsFolder = config.getString("playlistsfolder");
             aliases = config.getConfig("aliases");
+            ytPoToken = config.getString("ytpotoken");
+            ytVisitorData = config.getString("ytvisitordata");
+            ytRoutingPlanner = config.getEnum(YouTubeUtil.RoutingPlanner.class, "ytroutingplanner");
+            ytIpBlocks = config.getStringList("ytipblocks").stream().map(YouTubeUtil::parseIpBlock).collect(Collectors.toList());
             transforms = config.getConfig("transforms");
             skipratio = config.getDouble("skipratio");
             dbots = owner == 113156185389092864L;
@@ -327,7 +333,25 @@ public class BotConfig
     {
         return logLevel;
     }
+    public String getYTPoToken()
+    {
+        return ytPoToken.equals("PO_TOKEN_HERE") ? null : ytPoToken;
+    }
 
+    public String getYTVisitorData()
+    {
+        return ytVisitorData.equals("VISITOR_DATA_HERE") ? null : ytVisitorData;
+    }
+
+    public YouTubeUtil.RoutingPlanner getYTRoutingPlanner()
+    {
+        return ytRoutingPlanner;
+    }
+
+    public List<IpBlock> getYTIpBlocks()
+    {
+        return ytIpBlocks;
+    }
     public boolean useEval()
     {
         return useEval;
