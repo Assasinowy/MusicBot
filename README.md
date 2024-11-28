@@ -18,7 +18,7 @@
 [![Release](https://img.shields.io/github/release/Assasinowy/Musicbot.svg)](https://github.com/Assasinowy/Musicbot/releases/latest)
 [![License](https://img.shields.io/github/license/Assasinowy/Musicbot.svg)](https://github.com/Assasinowy/Musicbot/blob/master/LICENSE)
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/P9nBAWo6fT37QGUm8Nbc6/4SR1a8LnP662TJ2XTMCi3U/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/P9nBAWo6fT37QGUm8Nbc6/4SR1a8LnP662TJ2XTMCi3U/tree/master)
-[![Build and Test](https://github.com/MusicBot/Musicbot/actions/workflows/change-run.yml/badge.svg)](https://github.com/Musicbot/MusicBot/actions/workflows/change-run.yml)
+[![Build and Test](https://github.com/Musicbot/Musicbot/actions/workflows/change-run.yml/badge.svg)](https://github.com/Musicbot/Musicbot/actions/workflows/change-run.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/Assasinowy/musicbot/badge)](https://www.codefactor.io/repository/github/Assasinowy/musicbot)
 
 A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!
