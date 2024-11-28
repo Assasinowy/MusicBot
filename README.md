@@ -1,5 +1,12 @@
 <img align="right" src="https://i.imgur.com/zrE80HY.png" height="200" width="200">
 
+
+
+
+
+
+
+
 # JMusicBot ( Original )
 
 [![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
