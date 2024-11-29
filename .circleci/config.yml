@@ -39,10 +39,9 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
-
-jobs:
-  build:
+      
     working_directory: /tmp
+    
     steps:
       - run:
           name: Creating Dummy Artifacts
