@@ -39,7 +39,7 @@ jobs:
 
       # run tests!
       - run: mvn integration-test
-      
+
     working_directory: /tmp
     
     steps:
@@ -56,6 +56,7 @@ jobs:
 
       - store_artifacts:
           path: /tmp/artifacts
+          
 workflows:
   version: 2
   build:
