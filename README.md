@@ -21,6 +21,9 @@
 [![Test Build -](https://github.com/Assasinowy/Musicbot/actions/workflows/Test-Build.yml/badge.svg)](https://github.com/Assasinowy/Musicbot/actions/workflows/Test-Build.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/assasinowy/musicbot/badge)](https://www.codefactor.io/repository/github/assasinowy/musicbot)
 
+I implemented the fixes from https://discord.com/channels/147698382092238848/185037029384388608/1308999432766881792 here, so if you want to just change the lang to I dunno Russian, just make a pull request and I'll make it for ya!
+
+
 A cross-platform Discord music bot with a clean interface, and that is easy to set up and run yourself!
 
 [![Setup](http://i.imgur.com/VvXYp5j.png)](https://jmusicbot.com/setup)
